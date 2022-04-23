@@ -1,0 +1,204 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(10, 10, 10);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 15%;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+
+/* |Левая колонка| */
+
+.LeftColumn {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+
+.person {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#ProfilePhoto {
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 60px;
+    border: 2px solid rgb(139, 0, 0);
+}
+
+#FIO {
+    font-size: 25px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+}
+
+#button {
+    padding: 10px;
+    margin-top: 15px;
+    color: white;
+    text-indent: 15px;
+    background-color: rgb(10, 10, 10);
+    border: none;
+    text-align: start;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: rgb(43, 43, 43);
+    border-left: 2px solid rgb(0, 255, 255);
+}
+
+#exit {
+    padding: 10px;
+    margin-top: 15px;
+    color: white;
+    text-indent: 15px;
+    background-color: rgb(10, 10, 10);
+    border: none;
+    text-align: start;
+}
+
+#exit:hover {
+    background-color: rgb(43, 43, 43);
+    border-left: 2px solid rgb(255, 0, 0);
+}
+
+/* |Правая колонка| */
+
+.RightColumn {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+
+.MainText {
+    display: flex;
+    font-size: 35px;
+    padding: 30px;
+    background-color: rgb(41, 41, 41);
+}
+
+/* Профиль */
+
+#EditProfile {
+    display: flex;
+    background-color: rgb(27, 27, 27);
+    padding-left: 20px;
+}
+
+.LeftGrid {
+    margin-right: 120px;
+}
+
+#tags {
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+#inputs {
+    background-color: rgb(43, 43, 43);
+    margin: 10px 0px 10px 0px;
+    padding: 2px;
+    border: none;
+    color: white;
+}
+
+.SaveChanges {
+    display: flex;
+    padding: 10px 0px 20px 0px;
+}
+
+#save {
+    color: white;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    padding: 2px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#save:hover {
+    border: 0px 1px 0px 1px solid rgb(0, 255, 255);
+}
+
+.RightGrid {
+    display: flex;
+    flex-direction: column;
+}
+
+#DemoProfilePhoto {
+    height: 100px;
+    border: 2px solid rgb(139, 0, 0);
+    border-radius: 60px;
+    margin: 15px 5px 15px 0px;
+}
+
+#UploadPhoto {
+    margin: 0px 5px 0px 0px;
+    background-color: black;
+    color: white;
+    border: 1px dotted rgb(139, 0, 0);
+    padding: 2px;
+    cursor: pointer;
+}
+
+/* ОБО МНЕ */
+
+#EditAbout {
+    display: none;
+    flex-direction: column;
+    background-color: rgb(27, 27, 27);
+    padding-left: 20px;
+}
+
+#InputAbout {
+    background-color: rgb(43, 43, 43);
+    margin: 10px 0px 10px 0px;
+    border: none;
+    color: white;
+}
+
+/* ПОРТФОЛИО */
+
+#EditPortfolio {
+    display: none;
+    flex-direction: column;
+    background-color: rgb(27, 27, 27);
+    padding-left: 20px;
+}
+
+
+/* ОПЫТ РАБОТЫ */
+
+#EditJob {
+    display: none;
+    flex-direction: column;
+    background-color: rgb(27, 27, 27);
+    padding-left: 20px;
+}

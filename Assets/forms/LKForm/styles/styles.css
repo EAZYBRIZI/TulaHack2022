@@ -1,0 +1,282 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* |RegAuth HEADER| */
+
+.LoginFormTab{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  
+   
+    position: absolute;
+      
+}
+.LoginFormTabAuth{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  
+   
+    position: absolute;
+      
+}
+
+.LoginForm{
+    
+    position: fixed;
+    display: block;
+    justify-content: center;
+    min-width: 20%;
+    padding: 15px;
+    text-align: left;
+    background-color: rgb(37, 44, 44);
+    margin: 0;
+    border-radius: 5%;
+    color: white;
+    border: solid green 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       
+}
+.LoginForm  h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ButtonPosition{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.ButtonPosition button{
+    background-color: green;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2%;
+    box-shadow: inset 1px 2px 5px 1px rgb(54, 216, 54);
+    border: rgb(2, 41, 2) solid;
+}
+.ButtonPosition button:hover{
+    background-color: rgb(2, 155, 2);
+    cursor: pointer;
+}
+.InputSize{
+    width: 98%;
+}
+.buttonforreg{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2%;
+    margin: 10px;
+    font-size: 15px;
+    box-shadow: inset 1px 2px 5px 1px rgb(54, 216, 54);
+    border: rgb(2, 41, 2) solid;
+}
+.CloseIt{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    
+    opacity: 80%;
+    display: none;
+    height: 100%;
+    width: 100%;
+   
+}
+.CloseIt1{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    
+    opacity: 80%;
+    display: none;
+    height: 100%;
+    width: 100%;
+   
+}
+
+.AuthFor{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2%;
+    margin: 10px;
+    font-size: 15px;
+    box-shadow: inset 1px 2px 5px 1px rgb(54, 216, 54);
+    border: rgb(2, 41, 2) solid;
+
+}
+
+/* |HEADER| */
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+#logotype {
+    height: 60px;
+    padding-left: 5px;
+}
+
+.input input[type=text] {
+    width: 55%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    transition: width 0.4s ease-in-out;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.input input[type=text]:focus {
+    width: 200%;
+}
+
+.RegAuth {
+    display: flex;
+    margin-right: 2%;
+}
+
+#FIO , #path {
+    text-shadow: 3px 4px 5px rgb(71, 71, 71);
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-image: url('https://media.proglib.io/wp-uploads/2018/03/%D1%8B%D0%B0%D1%8B%D0%B2%D0%B0.png');
+    background-position: center;
+}
+
+.samnazovi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.samnazovi h1 {
+    font-size: 40px;
+    text-shadow: 1px 1px 10px 10px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: .5px #000000;
+}
+
+.samnazovi h2 {
+    font-size: 30px;
+    text-shadow: 1px 1px 2px rgb(71, 71, 71);
+    color: rgb(61, 255, 165);
+    -webkit-text-stroke: .5px #000000;
+}
+
+#ExmpLang {
+    height: 45px;
+    border-radius: 20px;
+}
+
+.nav {
+    background-color: black;
+}
+
+.NavButtons {
+    display: flex;
+    justify-content: center;
+}
+
+#Navigation {
+    margin-left: 17px;
+    margin-right: 17px;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+/* |MAIN| */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(224, 224, 224);
+    height: 70%;
+}
+
+.MainBlock {
+    display: flex;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    margin-top: 45px;
+    width: 70%;
+    box-shadow: 5px 7px 20px 1px rgb(100, 99, 99);
+}
+
+.MainBlock h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.MainBlock h4 {
+    display: flex;
+    justify-content: center;
+    text-indent: 20px;
+    padding: 15px 0px 15px 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#portfolio {
+    height: 150px;
+}
+
+.SomeText {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#MiniIcon {
+    height: 30px;
+}
+
+.Stack {
+    display: flex;
+    justify-content: flex-end;
+}
