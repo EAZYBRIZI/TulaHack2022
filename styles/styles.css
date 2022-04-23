@@ -49,7 +49,9 @@ a {
     margin-right: 2%;
 }
 
-
+#FIO , #path {
+    text-shadow: 3px 4px 5px rgb(71, 71, 71);
+}
 
 .about {
     display: flex;
@@ -65,13 +67,13 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
-    
 }
+
 .samnazovi h1 {
     text-shadow: 1px 1px 2px rgb(71, 71, 71);
     color: white;
 }
+
 .samnazovi h2 {
     text-shadow: 1px 1px 2px rgb(71, 71, 71);
     color: white;
@@ -115,7 +117,7 @@ main {
     color: rgb(0, 0, 0);
     margin-top: 45px;
     width: 70%;
-    box-shadow: 5px 5px 20px 1px black;
+    box-shadow: 5px 7px 20px 1px rgb(100, 99, 99);
 }
 
 .MainBlock h3 {
@@ -124,6 +126,7 @@ main {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 .MainBlock h4 {
     display: flex;
     justify-content: center;
