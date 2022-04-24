@@ -1,5 +1,7 @@
 <?php 
+
 session_start();
+
 
 ?>
 <html lang="ru">
@@ -77,7 +79,7 @@ session_start();
                 </div>
             </div>
             <div class="RegAuth">
-                <a href="edit.html"><div class="buttonforreg" id="button">Редактировать</div></a>
+                <a href="edit.php"><div class="buttonforreg" id="button">Редактировать</div></a>
                 <a href="logout.php"><button  class="AuthFor" id="button">Выход</button></a>
             </div>
         </div>
@@ -107,29 +109,20 @@ session_start();
     </header>
 
     <main>
-        <div class="MainBlock">
+ 
+    <div class="MainBlock">
             <img src="https://cdnapi.smotrim.ru/api/v1/pictures/2077524/xw/redirect" alt="" id="portfolio">
-            <div class="SomeText">
-                <h3>Это мой первый САЙТ!</h3>
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt velit animi nihil officia possimus qui autem facere nostrum officiis! Recusandae, in. Debitis, ex. Sapiente esse voluptatum ipsum modi tempore inventore.</h4>
+          
+           <?php while($RenderAch){ echo"
+            <div class='SomeText'>
+               "." <h3>".$RenderAch[article].",</h3>"."
+                "."<h4>".$RenderAch[description]."</h4>"."
             </div>
-        </div>
+    </div>
+        
+       ";} ?>
 
-        <div class="MainBlock">
-            <img src="https://cdnapi.smotrim.ru/api/v1/pictures/2077524/xw/redirect" alt="" id="portfolio">
-            <div class="SomeText">
-                <h3>Это мой первый САЙТ!</h3>
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt velit animi nihil officia possimus qui autem facere nostrum officiis! Recusandae, in. Debitis, ex. Sapiente esse voluptatum ipsum modi tempore inventore.</h4>
-            </div>
-        </div>
-
-        <div class="MainBlock">
-            <img src="https://cdnapi.smotrim.ru/api/v1/pictures/2077524/xw/redirect" alt="" id="portfolio">
-            <div class="SomeText">
-                <h3>Это мой первый САЙТ!</h3>
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt velit animi nihil officia possimus qui autem facere nostrum officiis! Recusandae, in. Debitis, ex. Sapiente esse voluptatum ipsum modi tempore inventore.</h4>
-            </div>
-        </div>
+      
         
     </main>
    <script src="script/scripts.js"></script>
