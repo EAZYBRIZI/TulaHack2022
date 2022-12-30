@@ -32,11 +32,4 @@ AuthButton.onclick = function(){
     closer1();
 }
 
-function login() {
-    var b = 10000;
 
-    while (b >= 1000) {
-        console.log(b);
-        b *= 2;
-    }
-}
